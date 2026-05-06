@@ -8,21 +8,21 @@ export default function Portfolio() {
       descricao: 'Sistema de aprendizagem sobre cybersegurança.',
       tecnologia: 'HTML • CSS • JavaScript',
       link: 'https://cyber-skills-dun.vercel.app/',
-      imagem: 'public/projeto1.png'
+      imagem: '/projeto1.png'
     },
     {
       titulo: 'Casamento moderno',
       descricao: 'Página profissional para casamentos,podendoser feita alterações.',
       tecnologia: 'React • Vite • Framer Motion',
       link: 'https://casamento-dev.vercel.app/',
-      imagem: 'public/projeto2.png'
+      imagem: '/projeto2.png'
     },
     {
       titulo: 'Dashboard Financeiro',
       descricao: 'Painel completo para controle financeiro e métricas (Ainda em desenvolvimento).',
       tecnologia: 'React • Chart.js • API',
       link: '',
-      imagem: 'public/projeto3.png'
+      imagem: '/projeto3.png'
     },
   ]
 
@@ -154,7 +154,7 @@ export default function Portfolio() {
               <div className="w-[320px] h-[320px] rounded-[40px] bg-gradient-to-br from-purple-600 to-blue-600 p-[2px] shadow-2xl shadow-purple-500/30 animate-pulse">
             <div className="w-full h-full rounded-[38px] bg-zinc-950 overflow-hidden">
                 <img
-                  src="public/FotoArthur.png"
+                  src="/FotoArthur.png"
                   alt="Arthur"
                   className="w-full h-full object-cover"
                 />
